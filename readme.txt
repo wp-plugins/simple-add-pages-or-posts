@@ -1,4 +1,4 @@
-=== Admin renamer extended ===
+=== Simple add pages or posts ===
 Contributors: Simon Dirlik, Ramon Fincken
 Donate link: http://donate.ramonfincken.com
 Tags: admin,admins,add,mass,simple,easy,post,posts,page,pages
