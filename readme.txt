@@ -3,7 +3,7 @@ Contributors: Simon Dirlik, Ramon Fincken
 Donate link: http://donate.ramonfincken.com
 Tags: admin,admins,add,mass,simple,easy,post,posts,page,pages,multiple,about,default
 Requires at least: 2.0.2
-Tested up to: 2.9.1
+Tested up to: 2.9.2
 Stable tag: 1.0
 
 Plugin to simply add multiple posts or pages at once by entering their titles. Handy tool if you have a new blog and want to quickly add pages like Home, About, Contact ...
