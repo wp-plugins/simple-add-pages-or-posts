@@ -6,7 +6,7 @@
  * @package       Plugins
  * @author        Simon Dirlik, Ramon Fincken
  * @copyright     Yes, Open source
- * @version       v 1.0
+ * @version       v 1.1
 */
 if (!defined('ABSPATH')) die("Aren't you supposed to come here via WP-Admin?");
 
