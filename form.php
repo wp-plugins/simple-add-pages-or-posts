@@ -107,7 +107,7 @@ if (isset ($_POST['submitbutton']) && isset ($_POST['postorpage'])) {
    </tr>
    <tr class="alternate iedit">
       <td valign="top">Titles:<br/><small>Each new post/page on a new line</small></td>
-      <td><textarea name="titles" rows="6" columns="60"></textarea></td>
+      <td><textarea name="titles" rows="8" columns="100"></textarea></td>
    </tr>
    <tr class="iedit">
       <td valign="top">Author of post/page:</td>
