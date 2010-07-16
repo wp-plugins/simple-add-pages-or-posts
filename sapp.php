@@ -26,7 +26,7 @@ function plugin_sapp_RegisterPluginLinks($links, $file) {
    if ($file == 'simple-add-pages-or-posts/simple_add_pages_or_posts.php') {
       $links[] = '<a href="plugins.php?page=simple-add-pages-or-posts/sapp.php">' . __('Settings') . '</a>';
       $links[] = '<a href="http://donate.ramonfincken.com">' . __('Donate') . '</a>';
-      $links[] = '<a href="http://www.creativepulses.nl">' . __('Custom WordPress coding nodig?') . '</a>';      
+      $links[] = '<a href="http://www.mijnpress.nl">' . __('Custom WordPress coding nodig?') . '</a>';      
    }
    return $links;
 }
