@@ -12,6 +12,9 @@ Plugin to simply add multiple posts or pages at once by entering their titles. H
 
 Plugin to simply add multiple posts or pages at once by entering their titles. Handy tool if you have a new blog and want to quickly add pages like Home, About, Contact ...
 
+<br>
+<br>Coding by: <a href="http://www.mijnpress.nl">MijnPress.nl</a> <a href="http://twitter.com/#!/ramonfincken">Twitter profile</a> <a href="http://wordpress.org/extend/plugins/profile/ramon-fincken">More plugins</a>
+
 == Installation ==
 
 1. Upload directory `simple-add-pages-or-posts` to the `/wp-content/plugins/` directory
