@@ -43,6 +43,6 @@ First release
 == Screenshots ==
 
 1. Enter title
-<a href="http://s.wordpress.org/extend/plugins/simple-add-pages-or-posts/screenshot-1.png">Fullscreen Screenshot 1</a><br>
+<a href="http://s.wordpress.org/extend/plugins/simple-add-pages-or-posts/screenshot-1.png?r=321315">Fullscreen Screenshot 1</a><br>
 2. After submit
-<a href="http://s.wordpress.org/extend/plugins/simple-add-pages-or-posts/screenshot-2.png">Fullscreen Screenshot 2</a><br>
+<a href="http://s.wordpress.org/extend/plugins/simple-add-pages-or-posts/screenshot-2.png?r=321315">Fullscreen Screenshot 2</a><br>
