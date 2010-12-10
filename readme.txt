@@ -4,9 +4,9 @@ Donate link: http://donate.ramonfincken.com
 Tags: admin,admins,add,mass,simple,easy,post,posts,page,pages,multiple,about,default
 Requires at least: 2.0.2
 Tested up to: 3.0.1
-Stable tag: 1.1
+Stable tag: 1.2
 
-Plugin to simply add multiple posts or pages at once by entering their titles. Handy tool if you have a new blog and want to quickly add pages like Home, About, Contact ...
+Plugin to simply add multiple posts or pages at once by entering their titles. Handy tool if you have a new blog and want to quickly add pages..
 
 == Description ==
 
@@ -28,6 +28,10 @@ None available
 
 == Changelog ==
 
+= 1.2 =
+* Added: multi hierarchy setup
+* Added: <a href="http://www.mijnpress.nl/blog/plugin-framework/">http://www.mijnpress.nl/blog/plugin-framework/</a>
+
 = 1.1 =
 * Changed GUI style
 * Option to add pages under existing pages (Same functionality as wp-admin > pages > add new > sidebar: attributes/Parent
@@ -39,4 +43,6 @@ First release
 == Screenshots ==
 
 1. Enter title
+<a href="http://s.wordpress.org/extend/plugins/simple-add-pages-or-posts/screenshot-1.png">Fullscreen Screenshot 1</a><br>
 2. After submit
+<a href="http://s.wordpress.org/extend/plugins/simple-add-pages-or-posts/screenshot-2.png">Fullscreen Screenshot 2</a><br>
