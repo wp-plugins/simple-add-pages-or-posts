@@ -31,6 +31,11 @@
  * 
  * 1.2
  * Added: is_admin()
+ * 
+ * 1.3
+ * Added: get_plugin_url : $file = __FILE__
+ * > To fix when multiple plugins use this framework.
+ * Added: 'See attachments'
  * ------------------------------------------------------------------
  * 
  */
@@ -43,7 +48,7 @@ class mijnpress_plugin_framework
 {
     var $showcredits = true;
     var $showcredits_fordevelopers = true;
-    var $all_plugins = array('Admin renamer extended','Find replace','Simple add pages or posts','Force apply terms and conditions','GTmetrix website performance','Antispam for all fields','Mass Delete Tags','Auto Prune Posts','Warm cache');
+    var $all_plugins = array('Admin renamer extended','Find replace','Simple add pages or posts','Force apply terms and conditions','GTmetrix website performance','Antispam for all fields','Mass Delete Tags','Auto Prune Posts','Warm cache','See attachments');
     
     /**
      * Left menu display in Plugin menu
@@ -139,16 +144,16 @@ class mijnpress_plugin_framework
      * @param String $path
      * @return String
      */
-    function get_plugin_url($path = '') {
+    function get_plugin_url($path = '',$file = __FILE__) {
        global $wp_version;
 
        if (version_compare($wp_version, '2.8', '<')) { // Using WordPress 2.7
-          $folder = dirname(plugin_basename(__FILE__));
+          $folder = dirname(plugin_basename($file));
           if ('.' != $folder)
          $path = path_join(ltrim($folder, '/'), $path);
           return plugins_url($path);
        }
-       return plugins_url($path, __FILE__);
+       return plugins_url($path, $file);
     }
 }
 
