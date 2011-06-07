@@ -3,8 +3,8 @@ Contributors: Simon Dirlik, Ramon Fincken
 Donate link: http://donate.ramonfincken.com
 Tags: admin,admins,add,mass,simple,easy,post,posts,page,pages,multiple,about,default
 Requires at least: 2.0.2
-Tested up to: 3.0.3
-Stable tag: 1.2.1
+Tested up to: 3.1.3
+Stable tag: 1.5
 
 Plugin to simply add multiple posts or pages at once by entering their titles. Handy tool if you have a new blog and want to quickly add pages..
 
@@ -23,10 +23,15 @@ Plugin to simply add multiple posts or pages at once by entering their titles. H
 
 == Frequently Asked Questions ==
 
-None available
+= I have a lot of questions and I want support where can I go? =
+
+<a href="http://pluginsupport.mijnpress.nl/">http://pluginsupport.mijnpress.nl/</a> or drop me a tweet to notify me of your support topic over here.<br>
+I always check my tweets, so mention my name with @ramonfincken and your problem.
 
 
 == Changelog ==
+= 1.5 =
+Bugfix: Framework did not work on multisite, is_admin() problem.<br>If anyone could help me with that ? :)
 
 = 1.2 =
 * Added: multi hierarchy setup
