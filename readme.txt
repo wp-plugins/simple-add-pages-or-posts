@@ -23,7 +23,10 @@ Plugin to simply add multiple posts or pages at once by entering their titles. H
 
 == Frequently Asked Questions ==
 
-None available
+= I have a lot of questions and I want support where can I go? =
+
+<a href="http://pluginsupport.mijnpress.nl/">http://pluginsupport.mijnpress.nl/</a> or drop me a tweet to notify me of your support topic over here.<br>
+I always check my tweets, so mention my name with @ramonfincken and your problem.
 
 
 == Changelog ==
