@@ -3,8 +3,8 @@ Contributors: Simon Dirlik, Ramon Fincken
 Donate link: http://donate.ramonfincken.com
 Tags: admin,admins,add,mass,simple,easy,post,posts,page,pages,multiple,about,default
 Requires at least: 2.0.2
-Tested up to: 3.1.3
-Stable tag: 1.5
+Tested up to: 3.3.1
+Stable tag: 1.6
 
 Plugin to simply add multiple posts or pages at once by entering their titles. Handy tool if you have a new blog and want to quickly add pages..
 
@@ -30,8 +30,11 @@ I always check my tweets, so mention my name with @ramonfincken and your problem
 
 
 == Changelog ==
+= 1.6 =
+* Added: Support for minus within title like: "Some-title"
+
 = 1.5 =
-Bugfix: Framework did not work on multisite, is_admin() problem.<br>If anyone could help me with that ? :)
+* Bugfix: Framework did not work on multisite, is_admin() problem.<br>If anyone could help me with that ? :)
 
 = 1.2 =
 * Added: multi hierarchy setup

@@ -61,12 +61,20 @@ if (isset ($_POST['submitbutton']) && isset ($_POST['postorpage'])) {
 			$lastlevel = $post_parent_org;
 
 			foreach ($titles as $title) {
+				// Remove whitespaces left and right			
 				$title = trim($title);
-				$level = substr_count($title, '-');
 
-				$title = str_replace('-','',$title);
-				// Remove spaces before and after titles
-				$title = trim($title);
+				// Now remove minus'ses at left position
+				$title_ltrim = ltrim($title,'-');
+				
+				// The level is the difference between trim and ltrim
+				$level = strlen($title)-strlen($title_ltrim);
+				
+				// Fix for minus within title like: "Some-title"
+				// $level = substr_count($title, '-');
+				
+				// Now store title
+				$title = $title_ltrim;
 
 				// Init
 				$newarray[$i] = array('level' => $level,'lastlevel' => $lastlevel,'title' => $title, 'child_of_page_id' => $post_parent_org, 'page_id' => NULL);
