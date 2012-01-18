@@ -24,18 +24,6 @@
  * First release
  * Submenu, credits, get plugin url, show main/sidebar
  * 
- * 1.1
- * Changed: $all_plugins as var
- * Added: mijnpress_plugin_framework_showcredits_framework
- * Added: Info comments at top of file, with extend option info
- * 
- * 1.2
- * Added: is_admin()
- * 
- * 1.3
- * Added: get_plugin_url : $file = __FILE__
- * > To fix when multiple plugins use this framework.
- * Added: 'See attachments'
  * 
  * 1.3.1
  * Modified: addPluginSubMenu
@@ -52,6 +40,9 @@
  * 
  * 1.4.1
  * Added: New plugins
+ * 
+ * 1.5
+ * Changed: credits
  * ------------------------------------------------------------------
  * 
  */
@@ -139,15 +130,15 @@ class mijnpress_plugin_framework
      */
     function content_end()
     {
+        if($this->showcredits)
+        {
+        	echo '<br/><br/>Do you like this plugin? <a href="http://donate.ramonfincken.com/">PayPal Donations</a> (even as small as $1,- or &euro;1,- are welcome!.';
+        }
         echo '</div>';
         echo '<div style="width:20%; float: right; margin-right: 10px;">';
         $this->showcredits();
         echo '</div>';
         
-        if($this->showcredits)
-        {
-        	echo '<br/><br/>Do you like this plugin? <a href="http://donate.ramonfincken.com/">PayPal Donations</a> (even as small as $1,- or &euro;1,- are welcome!.';
-        }
         echo '<div style="clear: both;"></div>';
     }
 
