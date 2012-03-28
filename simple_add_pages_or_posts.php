@@ -3,7 +3,7 @@
 Plugin Name: Simple add pages or posts
 Plugin URI: http://www.websitefreelancers.nl
 Description: Lets you add multiple pages or posts
-Version: 1.6
+Version: 1.6.1
 Author: Simon Dirlik, Ramon Fincken
 Author URI: http://www.websitefreelancers.nl
 Based on: http://www.mijnpress.nl/blog/plugin-framework/

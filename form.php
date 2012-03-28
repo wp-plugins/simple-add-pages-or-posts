@@ -184,6 +184,10 @@ textarea {
 }
 </style>
 <br />
+<h3>Custom Post Type support</h3>
+<p><a href="http://webshop.mijnpress.nl/product-category/plugins">Buy our premium plugin to add Custom Post Type (CPT) support!</a></p> 
+<br/>
+
 <form id="form1" name="form1" method="post" action=""
 	onsubmit="return confirm('Are you sure?')">
 <table class="widefat">
